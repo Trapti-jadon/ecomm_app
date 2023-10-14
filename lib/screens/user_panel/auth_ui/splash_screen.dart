@@ -38,9 +38,11 @@ class _SplashScreenState extends State<SplashScreen> {
           mainAxisAlignment: MainAxisAlignment.center,
           // crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            // Container(
-            //   child: Lottie.asset("assets/images/"),
-            // ),
+           Container(
+              child: Center(child: Lottie.asset("assets/images/welcome_logo.json",width: MediaQuery.of(context).size.width*0.5)),
+            ),
+            SizedBox(height: 12,),
+            
             Container(
               width: Get.width,
               alignment: Alignment.center,
